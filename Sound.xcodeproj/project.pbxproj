@@ -13,6 +13,12 @@
 		5307C81F2467A7C8007F8052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307C81D2467A7C8007F8052 /* Main.storyboard */; };
 		5307C8212467A7CB007F8052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5307C8202467A7CB007F8052 /* Assets.xcassets */; };
 		5307C8242467A7CB007F8052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307C8222467A7CB007F8052 /* LaunchScreen.storyboard */; };
+		5307C87C24699D95007F8052 /* piano_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5307C87624699D94007F8052 /* piano_image.png */; };
+		5307C87D24699D95007F8052 /* piano_playing_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5307C87724699D94007F8052 /* piano_playing_image.png */; };
+		5307C87E24699D95007F8052 /* guitar_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5307C87824699D95007F8052 /* guitar_sound.mp3 */; };
+		5307C87F24699D95007F8052 /* piano_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5307C87924699D95007F8052 /* piano_sound.mp3 */; };
+		5307C88024699D95007F8052 /* guitar_playing_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5307C87A24699D95007F8052 /* guitar_playing_image.png */; };
+		5307C88124699D95007F8052 /* guitar_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5307C87B24699D95007F8052 /* guitar_image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		5307C8202467A7CB007F8052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5307C8232467A7CB007F8052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5307C8252467A7CB007F8052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5307C87624699D94007F8052 /* piano_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piano_image.png; sourceTree = "<group>"; };
+		5307C87724699D94007F8052 /* piano_playing_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piano_playing_image.png; sourceTree = "<group>"; };
+		5307C87824699D95007F8052 /* guitar_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar_sound.mp3; sourceTree = "<group>"; };
+		5307C87924699D95007F8052 /* piano_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_sound.mp3; sourceTree = "<group>"; };
+		5307C87A24699D95007F8052 /* guitar_playing_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitar_playing_image.png; sourceTree = "<group>"; };
+		5307C87B24699D95007F8052 /* guitar_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitar_image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,11 @@
 		5307C80B2467A7C8007F8052 = {
 			isa = PBXGroup;
 			children = (
+				5307C87B24699D95007F8052 /* guitar_image.png */,
+				5307C87A24699D95007F8052 /* guitar_playing_image.png */,
+				5307C87624699D94007F8052 /* piano_image.png */,
+				5307C87724699D94007F8052 /* piano_playing_image.png */,
+				5307C87924699D95007F8052 /* piano_sound.mp3 */,
 				5307C8162467A7C8007F8052 /* Sound */,
 				5307C8152467A7C8007F8052 /* Products */,
 			);
@@ -61,6 +78,7 @@
 				5307C81B2467A7C8007F8052 /* ViewController.swift */,
 				5307C81D2467A7C8007F8052 /* Main.storyboard */,
 				5307C8202467A7CB007F8052 /* Assets.xcassets */,
+				5307C87824699D95007F8052 /* guitar_sound.mp3 */,
 				5307C8222467A7CB007F8052 /* LaunchScreen.storyboard */,
 				5307C8252467A7CB007F8052 /* Info.plist */,
 			);
@@ -125,9 +143,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5307C88124699D95007F8052 /* guitar_image.png in Resources */,
 				5307C8242467A7CB007F8052 /* LaunchScreen.storyboard in Resources */,
 				5307C8212467A7CB007F8052 /* Assets.xcassets in Resources */,
 				5307C81F2467A7C8007F8052 /* Main.storyboard in Resources */,
+				5307C87D24699D95007F8052 /* piano_playing_image.png in Resources */,
+				5307C88024699D95007F8052 /* guitar_playing_image.png in Resources */,
+				5307C87E24699D95007F8052 /* guitar_sound.mp3 in Resources */,
+				5307C87F24699D95007F8052 /* piano_sound.mp3 in Resources */,
+				5307C87C24699D95007F8052 /* piano_image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
